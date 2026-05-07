@@ -1,0 +1,31 @@
+#
+#DAStudio Preference File
+#
+
+
+[DAStudio DDG]
+DDGFontSize=10
+
+[DAStudio Model Explorer]
+MEGeometry=1470 769 902 627
+MESearchOptions_DeepSearch=1
+MESearchOptions_EvaluateProperties=0
+MESearchOptions_MatchCase=0
+MESearchOptions_MatchWholeString=0
+MESearchOptions_RefineAnd=0
+MESearchOptions_RegularExpression=1
+MESearchOptions_SearchLinks=0
+MESearchOptions_SearchMasks=0
+MESplitterPositions=5270171721517251
+METreeClassNames=Root,
+METreeClassRecord_Root::ObjectTypes=BlockDiagram,
+METreeClassRecord_Root::PropertyList=Name,ModelVersion,LastSaved,LibraryLinkDisplay,ModelBrowserVisibility,Dirty,Description,
+
+[GLUEEditorPreferences]
+FirstTimeScrollNotification=0
+FirstTimeSimulinkPortMoveTool=1
+SuggestQuickInsertNotification=0
+
+[General]
+MatlabRelease=2025b
+
