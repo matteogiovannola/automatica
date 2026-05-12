@@ -3,7 +3,7 @@ disp('Poli A:');
 disp(eig(A));
 
 %% ========== INSTABILITA', ALLORA DECIDO CHE POLI VOGLIO OTTENERE ==========
-p_des = [-5 -6 -7 -8];
+p_des = [complex(-2, 2.74), complex(-2, -2.74) -10 -12];
 
 %% ========= TROVO IL VALORE DI K (X'=(A-KB)X) PER OTTENERE TALI POLI =======
 K = place(A,B,p_des);
