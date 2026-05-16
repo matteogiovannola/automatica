@@ -1,11 +1,9 @@
-%% ======================= BODE ================================
-bode(G);
-grid on
+fprintf("Autovalori di A: \n");
+autovalori = eig(A);
+disp(autovalori);
 
-%% ====================== NYQUIST ==============================
-nyquist(G);
-grid on
-
-%% ===================== LUOGO DELLE RADICI ====================
-rlocus(G);
-grid on
+if all(real(autovalori) < 0)
+    fprintf("\nSistema stabile internamente");
+else
+    fprintf("\nSistema instabile internamente");
+end
