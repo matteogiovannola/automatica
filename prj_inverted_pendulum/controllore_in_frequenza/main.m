@@ -1,8 +1,7 @@
-
-
 s = tf('s');
-s = -(s+6.795)*(s+0.1428)*(s+9.7382);
-rlocus(s*G);
-T = feedback(0.7*s*G, 1);
+c = -10*(s+2)/(s+20);
+bode(c*G);
+grid on;
 figure
-step(T);
+nyquist(c*G);
+grid on;
