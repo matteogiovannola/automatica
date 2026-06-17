@@ -25,7 +25,7 @@ C_ant2 = (1 + tau2*s) / (1 + (tau2/m2)*s);
 
 % Controllore totale
 C = -k * C_ant1 * C_ant2 * (s + 6.738) * (s + 0.1428) ...
-      / ((1 + s/1000) * (1 + s/2000) * (1 + s/2500));   % 2 poli non dominanti
+      / ((1 + s/1000) * (1 + s/2000));   % 2 poli non dominanti
 
 %% ========================= VERIFICA ====================================
 bode(C * G_lin); grid on; figure
